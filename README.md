@@ -2,7 +2,7 @@
 
 # imya
 
-![npm: v0.1.0](docs/badges/badge.npm.svg) ![types: typescript](docs/badges/badge.types.svg) ![dependencies: 0](docs/badges/badge.dependencies.svg) ![size: 987B](docs/badges/badge.size.svg) ![licence: CC BY 4.0](docs/badges/badge.licence.svg) ![coverage: 100%](docs/badges/badge.coverage.svg)
+![npm: v0.2.0](docs/badges/badge.npm.svg) ![types: typescript](docs/badges/badge.types.svg) ![dependencies: 0](docs/badges/badge.dependencies.svg) ![size: 4.1kB](docs/badges/badge.size.svg) ![licence: CC BY 4.0](docs/badges/badge.licence.svg) ![coverage: 94%](docs/badges/badge.coverage.svg)
 
 `imya` — tiny personal-name utilities: split, normalise, initials and greetings. The name is the Russian word "имя" ("name"), which felt right for a package that does exactly one family of things: tidying up people's names.
 

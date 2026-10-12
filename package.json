@@ -1,6 +1,6 @@
 {
   "name": "imya",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "Tiny personal-name utilities: split, normalise, initials and greetings",
   "licence": "CC BY 4.0",
