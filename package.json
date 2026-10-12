@@ -48,6 +48,6 @@
     "prepublishOnly": "le prePublish"
   },
   "devDependencies": {
-    "lib-easy": "file:../../_NPMUTILS/lib-easy/lib-easy-0.6.0.tgz"
+    "lib-easy": "^0.6.0"
   }
 }
