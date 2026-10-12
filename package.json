@@ -3,16 +3,51 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Tiny personal-name utilities: split, normalise, initials and greetings",
-  "main": "index.js",
+  "licence": "CC BY 4.0",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "bin": {
+    "imya": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "docs/badges",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": "^20.11.0 || >=21.2.0"
+  },
+  "license": "CC BY 4.0",
   "keywords": [
     "name",
     "names",
     "formatting",
     "string",
     "utils",
-    "initials"
+    "initials",
+    "greeting",
+    "person"
   ],
-  "files": [
-    "index.js"
-  ]
+  "homepage": "https://tmgldn.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmgldn/imya.git"
+  },
+  "author": {
+    "name": "Tom Golden",
+    "email": "oss@tmgldn.com",
+    "url": "https://tmgldn.com"
+  },
+  "scripts": {
+    "test": "le test",
+    "lint": "le lint",
+    "fix": "le fix",
+    "build": "le build",
+    "checkBuild": "node --test \"dist/*.test.js\"",
+    "prepublishOnly": "le prePublish"
+  },
+  "devDependencies": {
+    "lib-easy": "file:../../_NPMUTILS/lib-easy/lib-easy-0.6.0.tgz"
+  }
 }
